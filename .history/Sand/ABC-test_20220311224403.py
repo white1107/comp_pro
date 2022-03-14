@@ -6,9 +6,11 @@ def get_input(inp):
         return li.pop(0)
     return inner
 
-INPUT = """2
-1 8
-4 2
+INPUT = """1 2 1 1000
+
+
+
+
 
 
 """
@@ -16,10 +18,9 @@ input = get_input(INPUT)
 
 ###############################
 
-n = int(input())
-for i in range(n):
-  a,b = map(int,input().split())
-  if a*2 <= b and (b-a*2)&a ==0:
-    print("Yes")
-  else:
-    print("No")
+a,b,c,x = map(int,input().split())
+
+if a+1<= x <= b:
+  print(c/(b-a))
+else:
+  print(x)

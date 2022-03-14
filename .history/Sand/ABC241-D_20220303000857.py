@@ -6,19 +6,7 @@ def get_input(inp):
         return li.pop(0)
     return inner
 
-INPUT = """11
-1 20
-1 10
-1 30
-1 20
-3 15 1
-3 15 2
-3 15 3
-3 15 4
-2 100 5
-1 1
-2 100 5
-
+INPUT = """152
 
 
 """
