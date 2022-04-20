@@ -5,7 +5,6 @@ file_names = os.listdir('Sand')
 
 dic_name_list = ['ABC','ARC','AGC',"Others"]
 for file_name in file_names:
-    print(file_name)
     dic_name, name = file_name.split('-')[1:]
     dic_big = ""
     for tmp in dic_name_list:
